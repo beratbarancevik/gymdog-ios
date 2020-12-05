@@ -26,6 +26,13 @@
 		F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */; };
 		F4FB9B83257BCCE300D8C1F1 /* gymdogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B82257BCCE300D8C1F1 /* gymdogTests.swift */; };
 		F4FB9B8E257BCCE300D8C1F1 /* gymdogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B8D257BCCE300D8C1F1 /* gymdogUITests.swift */; };
+		F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC20E5257BF3E50073B34F /* Theme.swift */; };
+		F4FC20EB257BF4400073B34F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC20EA257BF4400073B34F /* UIColor+Extensions.swift */; };
+		F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC20F4257BF54E0073B34F /* Colors.swift */; };
+		F4FC20FD257BF5EC0073B34F /* Images.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC20FC257BF5EC0073B34F /* Images.swift */; };
+		F4FC2108257BF62D0073B34F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC2107257BF62D0073B34F /* Utility.swift */; };
+		F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC210C257BF64F0073B34F /* Notifications.swift */; };
+		F4FC2112257BF66A0073B34F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC2111257BF66A0073B34F /* Error.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +78,13 @@
 		F4FB9B89257BCCE300D8C1F1 /* gymdogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gymdogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B8D257BCCE300D8C1F1 /* gymdogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymdogUITests.swift; sourceTree = "<group>"; };
 		F4FB9B8F257BCCE300D8C1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FC20E5257BF3E50073B34F /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		F4FC20EA257BF4400073B34F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		F4FC20F4257BF54E0073B34F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F4FC20FC257BF5EC0073B34F /* Images.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Images.swift; sourceTree = "<group>"; };
+		F4FC2107257BF62D0073B34F /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		F4FC210C257BF64F0073B34F /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
+		F4FC2111257BF66A0073B34F /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
 		F9ED6DEDAB1870305480F1E8 /* Pods-gymdog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdog.debug.xcconfig"; path = "Target Support Files/Pods-gymdog/Pods-gymdog.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDC2B2F3661D4005B4C89AC /* Pods-gymdogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdogTests.release.xcconfig"; path = "Target Support Files/Pods-gymdogTests/Pods-gymdogTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -167,6 +181,12 @@
 		F47120C0257BF113007DCE8D /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				F4FC20F4257BF54E0073B34F /* Colors.swift */,
+				F4FC2111257BF66A0073B34F /* Error.swift */,
+				F4FC20FC257BF5EC0073B34F /* Images.swift */,
+				F4FC210C257BF64F0073B34F /* Notifications.swift */,
+				F4FC20E5257BF3E50073B34F /* Theme.swift */,
+				F4FC2107257BF62D0073B34F /* Utility.swift */,
 			);
 			path = Utility;
 			sourceTree = "<group>";
@@ -174,6 +194,7 @@
 		F47120C1257BF11C007DCE8D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F4FC20EA257BF4400073B34F /* UIColor+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -281,6 +302,8 @@
 				F4FB9B64257BCCE100D8C1F1 /* Sources */,
 				F4FB9B65257BCCE100D8C1F1 /* Frameworks */,
 				F4FB9B66257BCCE100D8C1F1 /* Resources */,
+				F4FC20EF257BF4750073B34F /* Firebase */,
+				F4FC20F0257BF4AB0073B34F /* Crashlytics */,
 				E056B53D732B9356985D8DD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
@@ -536,6 +559,44 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-gymdog/Pods-gymdog-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		F4FC20EF257BF4750073B34F /* Firebase */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = Firebase;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "PATH_TO_GOOGLE_PLISTS=\"${PROJECT_DIR}/gymdog/Supporting Files/Keys\"\n\ncase \"${CONFIGURATION}\" in\n\n   \"Debug\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/GoogleService-Info-Debug.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n   \"Release\" )\n        cp -r \"$PATH_TO_GOOGLE_PLISTS/GoogleService-Info-Release.plist\" \"${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app/GoogleService-Info.plist\" ;;\n\n    *)\n        ;;\nesac\n\n";
+		};
+		F4FC20F0257BF4AB0073B34F /* Crashlytics */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}/Contents/Resources/DWARF/${TARGET_NAME}",
+				"$(SRCROOT)/$(BUILT_PRODUCTS_DIR)/$(INFOPLIST_PATH)",
+			);
+			name = Crashlytics;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -543,8 +604,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */,
+				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
+				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
+				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
 				F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
+				F4FC20EB257BF4400073B34F /* UIColor+Extensions.swift in Sources */,
+				F4FC2112257BF66A0073B34F /* Error.swift in Sources */,
+				F4FC20FD257BF5EC0073B34F /* Images.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
