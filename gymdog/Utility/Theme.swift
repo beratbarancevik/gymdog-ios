@@ -9,12 +9,15 @@ import UIKit
 
 // MARK: - Style
 struct Style<View: UIView> {
+    // MARK: - Properties
     let style: (View) -> Void
     
+    // MARK: - Init
     init(_ style: @escaping (View) -> Void) {
         self.style = style
     }
     
+    // MARK: - Functions
     func apply(to view: View) {
         style(view)
     }
@@ -22,6 +25,7 @@ struct Style<View: UIView> {
 
 // MARK: - Theme
 enum Theme {
+    // MARK: - Properties
     static var settingsTableViewStyle: UITableView.Style {
         return .insetGrouped
     }

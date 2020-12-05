@@ -33,6 +33,10 @@
 		F4FC2108257BF62D0073B34F /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC2107257BF62D0073B34F /* Utility.swift */; };
 		F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC210C257BF64F0073B34F /* Notifications.swift */; };
 		F4FC2112257BF66A0073B34F /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC2111257BF66A0073B34F /* Error.swift */; };
+		F4FC211A257BF7050073B34F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC2119257BF7050073B34F /* UIView+Extensions.swift */; };
+		F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC211E257BF71A0073B34F /* String+Extensions.swift */; };
+		F4FC2127257BF7310073B34F /* Encodable+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC2126257BF7310073B34F /* Encodable+Extensions.swift */; };
+		F4FC212F257BF7490073B34F /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FC212E257BF7490073B34F /* Date+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +89,10 @@
 		F4FC2107257BF62D0073B34F /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
 		F4FC210C257BF64F0073B34F /* Notifications.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notifications.swift; sourceTree = "<group>"; };
 		F4FC2111257BF66A0073B34F /* Error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Error.swift; sourceTree = "<group>"; };
+		F4FC2119257BF7050073B34F /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		F4FC211E257BF71A0073B34F /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		F4FC2126257BF7310073B34F /* Encodable+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extensions.swift"; sourceTree = "<group>"; };
+		F4FC212E257BF7490073B34F /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		F9ED6DEDAB1870305480F1E8 /* Pods-gymdog.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdog.debug.xcconfig"; path = "Target Support Files/Pods-gymdog/Pods-gymdog.debug.xcconfig"; sourceTree = "<group>"; };
 		FDDC2B2F3661D4005B4C89AC /* Pods-gymdogTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdogTests.release.xcconfig"; path = "Target Support Files/Pods-gymdogTests/Pods-gymdogTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -194,7 +202,11 @@
 		F47120C1257BF11C007DCE8D /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				F4FC212E257BF7490073B34F /* Date+Extensions.swift */,
+				F4FC2126257BF7310073B34F /* Encodable+Extensions.swift */,
+				F4FC211E257BF71A0073B34F /* String+Extensions.swift */,
 				F4FC20EA257BF4400073B34F /* UIColor+Extensions.swift */,
+				F4FC2119257BF7050073B34F /* UIView+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -605,7 +617,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */,
+				F4FC2127257BF7310073B34F /* Encodable+Extensions.swift in Sources */,
+				F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */,
+				F4FC212F257BF7490073B34F /* Date+Extensions.swift in Sources */,
 				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
+				F4FC211A257BF7050073B34F /* UIView+Extensions.swift in Sources */,
 				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
 				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
 				F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */,
