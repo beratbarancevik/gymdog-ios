@@ -15,6 +15,8 @@
 		F4077DF2257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DF1257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator */; };
 		F4077DF8257BEF6200697BE4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DF7257BEF6200697BE4 /* Kingfisher */; };
 		F4077DFE257BEFA300697BE4 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DFD257BEFA300697BE4 /* SwiftMessages */; };
+		F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */; };
+		F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */; };
 		F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48455E4257BD33C00FE3C52 /* Info-Release.plist */; };
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
 		F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */; };
@@ -49,6 +51,8 @@
 		C7E923B19CE3AE9205817FFB /* Pods_gymdog_gymdogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gymdog_gymdogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12F9752D0151EC1ED5E2758 /* Pods-gymdog-gymdogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdog-gymdogUITests.debug.xcconfig"; path = "Target Support Files/Pods-gymdog-gymdogUITests/Pods-gymdog-gymdogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC5B2E6C16E1001E7B02233 /* Pods_gymdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gymdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Debug.plist"; sourceTree = "<group>"; };
+		F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
 		F48455E4257BD33C00FE3C52 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
 		F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Dog Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -122,6 +126,36 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		F4077E02257BF01800697BE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */,
+				F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */,
+				F4FB9B79257BCCE300D8C1F1 /* Info-Debug.plist */,
+				F48455E4257BD33C00FE3C52 /* Info-Release.plist */,
+				F47120B2257BF07E007DCE8D /* Assets */,
+				F47120B3257BF08A007DCE8D /* Keys */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F47120B2257BF07E007DCE8D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		F47120B3257BF08A007DCE8D /* Keys */ = {
+			isa = PBXGroup;
+			children = (
+				F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */,
+				F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */,
+			);
+			path = Keys;
+			sourceTree = "<group>";
+		};
 		F4FB9B5F257BCCE100D8C1F1 = {
 			isa = PBXGroup;
 			children = (
@@ -147,12 +181,8 @@
 		F4FB9B6A257BCCE100D8C1F1 /* gymdog */ = {
 			isa = PBXGroup;
 			children = (
-				F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */,
 				F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */,
-				F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */,
-				F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */,
-				F4FB9B79257BCCE300D8C1F1 /* Info-Debug.plist */,
-				F48455E4257BD33C00FE3C52 /* Info-Release.plist */,
+				F4077E02257BF01800697BE4 /* Supporting Files */,
 			);
 			path = gymdog;
 			sourceTree = "<group>";
@@ -298,9 +328,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */,
 				F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */,
 				F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */,
 				F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */,
+				F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -617,7 +649,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3978A7VN36;
-				INFOPLIST_FILE = "gymdog/Info-Debug.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/gymdog/Supporting Files/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -639,7 +671,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Release";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3978A7VN36;
-				INFOPLIST_FILE = "gymdog/Info-Release.plist";
+				INFOPLIST_FILE = "$(SRCROOT)/gymdog/Supporting Files/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
