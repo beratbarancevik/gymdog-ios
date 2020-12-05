@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "FC39DBE0-031A-475D-8B3E-892E409DA0D8",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:gymdog.xcodeproj",
+        "identifier" : "F4FB9B7D257BCCE300D8C1F1",
+        "name" : "gymdogTests"
+      }
+    }
+  ],
+  "version" : 1
+}
