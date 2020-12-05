@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48455E4257BD33C00FE3C52 /* Info-Release.plist */; };
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
 		F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */; };
 		F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */; };
@@ -33,12 +34,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F4FB9B68257BCCE100D8C1F1 /* gymdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F48455E4257BD33C00FE3C52 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
+		F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Dog Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FB9B77257BCCE300D8C1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F4FB9B79257BCCE300D8C1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4FB9B79257BCCE300D8C1F1 /* Info-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
 		F4FB9B7E257BCCE300D8C1F1 /* gymdogTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = gymdogTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B82257BCCE300D8C1F1 /* gymdogTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gymdogTests.swift; sourceTree = "<group>"; };
 		F4FB9B84257BCCE300D8C1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		F4FB9B69257BCCE100D8C1F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F4FB9B68257BCCE100D8C1F1 /* gymdog.app */,
+				F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */,
 				F4FB9B7E257BCCE300D8C1F1 /* gymdogTests.xctest */,
 				F4FB9B89257BCCE300D8C1F1 /* gymdogUITests.xctest */,
 			);
@@ -99,7 +101,8 @@
 				F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */,
 				F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */,
 				F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */,
-				F4FB9B79257BCCE300D8C1F1 /* Info.plist */,
+				F4FB9B79257BCCE300D8C1F1 /* Info-Debug.plist */,
+				F48455E4257BD33C00FE3C52 /* Info-Release.plist */,
 			);
 			path = gymdog;
 			sourceTree = "<group>";
@@ -139,7 +142,7 @@
 			);
 			name = gymdog;
 			productName = gymdog;
-			productReference = F4FB9B68257BCCE100D8C1F1 /* gymdog.app */;
+			productReference = F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */;
 			productType = "com.apple.product-type.application";
 		};
 		F4FB9B7D257BCCE300D8C1F1 /* gymdogTests */ = {
@@ -227,6 +230,7 @@
 			files = (
 				F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */,
 				F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */,
+				F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,7 +337,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -409,6 +413,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = RELEASE;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
@@ -418,18 +423,18 @@
 		F4FB9B93257BCCE300D8C1F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3978A7VN36;
-				INFOPLIST_FILE = gymdog/Info.plist;
+				INFOPLIST_FILE = "gymdog/Info-Debug.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.beratbarancevik.gymdog;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.beratbarancevik.gymdog.debug;
+				PRODUCT_MODULE_NAME = gymdog;
+				PRODUCT_NAME = "Gym Dog Debug";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -438,18 +443,18 @@
 		F4FB9B94257BCCE300D8C1F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Release";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3978A7VN36;
-				INFOPLIST_FILE = gymdog/Info.plist;
+				INFOPLIST_FILE = "gymdog/Info-Release.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beratbarancevik.gymdog;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_MODULE_NAME = gymdog;
+				PRODUCT_NAME = "Gym Dog";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -473,7 +478,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gymdog.app/gymdog";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Dog Debug.app/Gym Dog Debug";
 			};
 			name = Debug;
 		};
@@ -495,7 +500,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gymdog.app/gymdog";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gym Dog Debug.app/Gym Dog Debug";
 			};
 			name = Release;
 		};
