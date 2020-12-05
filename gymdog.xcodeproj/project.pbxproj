@@ -237,6 +237,9 @@
 		F47120C5257BF13E007DCE8D /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F4FC2149257BFAED0073B34F /* Base */,
+				F4FC214B257BFAFB0073B34F /* Cells */,
+				F4FC214A257BFAF10073B34F /* Custom */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -244,6 +247,14 @@
 		F47120C6257BF144007DCE8D /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				F4FC2148257BFAD70073B34F /* Base */,
+				F4FC2143257BFA810073B34F /* Account */,
+				F4FC2140257BFA5C0073B34F /* Home */,
+				F4FC2147257BFAB40073B34F /* Share */,
+				F4FC213F257BFA4D0073B34F /* Sleep */,
+				F4FC213D257BFA250073B34F /* Splash */,
+				F4FC2141257BFA680073B34F /* Tab */,
+				F4FC213E257BFA470073B34F /* Workout */,
 				F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */,
 			);
 			path = Modules;
@@ -305,6 +316,115 @@
 				F4FB9B8F257BCCE300D8C1F1 /* Info.plist */,
 			);
 			path = gymdogUITests;
+			sourceTree = "<group>";
+		};
+		F4FC213D257BFA250073B34F /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		F4FC213E257BFA470073B34F /* Workout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workout;
+			sourceTree = "<group>";
+		};
+		F4FC213F257BFA4D0073B34F /* Sleep */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sleep;
+			sourceTree = "<group>";
+		};
+		F4FC2140257BFA5C0073B34F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		F4FC2141257BFA680073B34F /* Tab */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Tab;
+			sourceTree = "<group>";
+		};
+		F4FC2142257BFA750073B34F /* Edit Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Edit Profile";
+			sourceTree = "<group>";
+		};
+		F4FC2143257BFA810073B34F /* Account */ = {
+			isa = PBXGroup;
+			children = (
+				F4FC2144257BFA8B0073B34F /* Authentication */,
+				F4FC2142257BFA750073B34F /* Edit Profile */,
+				F4FC2145257BFA910073B34F /* Profile */,
+				F4FC2146257BFAA00073B34F /* Settings */,
+			);
+			path = Account;
+			sourceTree = "<group>";
+		};
+		F4FC2144257BFA8B0073B34F /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		F4FC2145257BFA910073B34F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F4FC2146257BFAA00073B34F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		F4FC2147257BFAB40073B34F /* Share */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Share;
+			sourceTree = "<group>";
+		};
+		F4FC2148257BFAD70073B34F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F4FC2149257BFAED0073B34F /* Base */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F4FC214A257BFAF10073B34F /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		F4FC214B257BFAFB0073B34F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
