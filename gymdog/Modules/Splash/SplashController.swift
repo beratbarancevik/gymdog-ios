@@ -1,5 +1,5 @@
 //
-//  SplashViewController.swift
+//  SplashController.swift
 //  gymdog
 //
 //  Created by Berat Cevik on 12/5/20.
@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SplashViewController: BaseViewController {
+class SplashController: BaseController {
     // MARK: - UI Properties
     private let logoImageView: UIImageView = {
         $0.image = Images.workout.image
@@ -23,7 +23,7 @@ class SplashViewController: BaseViewController {
 }
 
 // MARK: - Setup
-extension SplashViewController: Setup {
+extension SplashController: Setup {
     func addViews() {
         view.addSubview(logoImageView)
     }

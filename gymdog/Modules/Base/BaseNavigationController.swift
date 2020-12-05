@@ -17,7 +17,7 @@ class BaseNavigationController: UINavigationController {
     }
     
     // MARK: - Init
-    convenience init(rootViewController: BaseViewController, prefersLargeTitles: Bool = true) {
+    convenience init(rootViewController: BaseController, prefersLargeTitles: Bool = true) {
         self.init(rootViewController: rootViewController)
         navigationBar.prefersLargeTitles = prefersLargeTitles
     }

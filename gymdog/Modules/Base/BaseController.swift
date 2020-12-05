@@ -1,5 +1,5 @@
 //
-//  BaseViewController.swift
+//  BaseController.swift
 //  gymdog
 //
 //  Created by Berat Cevik on 12/5/20.
@@ -16,7 +16,7 @@ import UIKit
     @objc optional func addObservers()
 }
 
-class BaseViewController: UIViewController {
+class BaseController: UIViewController {
     // MARK: - UI Properties
     var safeArea: UILayoutGuide {
         return view.safeAreaLayoutGuide

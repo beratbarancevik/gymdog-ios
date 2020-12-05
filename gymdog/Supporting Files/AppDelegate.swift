@@ -39,7 +39,7 @@ private extension AppDelegate {
     
     func displayHome() {
         window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = SplashViewController()
+        window?.rootViewController = SplashController()
         window?.makeKeyAndVisible()
     }
 }
