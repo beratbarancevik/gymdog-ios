@@ -10,6 +10,11 @@
 		3B6BF0033C2075062A549BA8 /* Pods_gymdog_gymdogUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7E923B19CE3AE9205817FFB /* Pods_gymdog_gymdogUITests.framework */; };
 		BC83C72FDF65FDA8610B7E56 /* Pods_gymdog.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEC5B2E6C16E1001E7B02233 /* Pods_gymdog.framework */; };
 		C0FE0169072911064D8585C3 /* Pods_gymdogTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD921734DF8771AC6E59ADC6 /* Pods_gymdogTests.framework */; };
+		F4077DE6257BEDD900697BE4 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DE5257BEDD900697BE4 /* SnapKit */; };
+		F4077DEC257BEDF400697BE4 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DEB257BEDF400697BE4 /* Alamofire */; };
+		F4077DF2257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DF1257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator */; };
+		F4077DF8257BEF6200697BE4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DF7257BEF6200697BE4 /* Kingfisher */; };
+		F4077DFE257BEFA300697BE4 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DFD257BEFA300697BE4 /* SwiftMessages */; };
 		F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48455E4257BD33C00FE3C52 /* Info-Release.plist */; };
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
 		F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */; };
@@ -66,7 +71,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4077DEC257BEDF400697BE4 /* Alamofire in Frameworks */,
 				BC83C72FDF65FDA8610B7E56 /* Pods_gymdog.framework in Frameworks */,
+				F4077DE6257BEDD900697BE4 /* SnapKit in Frameworks */,
+				F4077DF2257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator in Frameworks */,
+				F4077DFE257BEFA300697BE4 /* SwiftMessages in Frameworks */,
+				F4077DF8257BEF6200697BE4 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -183,6 +193,13 @@
 			dependencies = (
 			);
 			name = gymdog;
+			packageProductDependencies = (
+				F4077DE5257BEDD900697BE4 /* SnapKit */,
+				F4077DEB257BEDF400697BE4 /* Alamofire */,
+				F4077DF1257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator */,
+				F4077DF7257BEF6200697BE4 /* Kingfisher */,
+				F4077DFD257BEFA300697BE4 /* SwiftMessages */,
+			);
 			productName = gymdog;
 			productReference = F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */;
 			productType = "com.apple.product-type.application";
@@ -258,6 +275,13 @@
 				Base,
 			);
 			mainGroup = F4FB9B5F257BCCE100D8C1F1;
+			packageReferences = (
+				F4077DE4257BEDD900697BE4 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				F4077DEA257BEDF400697BE4 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F4077DF0257BEE0D00697BE4 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityIndicator" */,
+				F4077DF6257BEF6200697BE4 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				F4077DFC257BEFA300697BE4 /* XCRemoteSwiftPackageReference "SwiftMessages" */,
+			);
 			productRefGroup = F4FB9B69257BCCE100D8C1F1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -758,6 +782,77 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F4077DE4257BEDD900697BE4 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.1;
+			};
+		};
+		F4077DEA257BEDF400697BE4 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.4.0;
+			};
+		};
+		F4077DF0257BEE0D00697BE4 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityIndicator" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/AlamofireNetworkActivityIndicator";
+			requirement = {
+				kind = exactVersion;
+				version = 3.1.0;
+			};
+		};
+		F4077DF6257BEF6200697BE4 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = exactVersion;
+				version = 5.15.8;
+			};
+		};
+		F4077DFC257BEFA300697BE4 /* XCRemoteSwiftPackageReference "SwiftMessages" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SwiftKickMobile/SwiftMessages";
+			requirement = {
+				kind = exactVersion;
+				version = 8.0.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F4077DE5257BEDD900697BE4 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4077DE4257BEDD900697BE4 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		F4077DEB257BEDF400697BE4 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4077DEA257BEDF400697BE4 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F4077DF1257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4077DF0257BEE0D00697BE4 /* XCRemoteSwiftPackageReference "AlamofireNetworkActivityIndicator" */;
+			productName = AlamofireNetworkActivityIndicator;
+		};
+		F4077DF7257BEF6200697BE4 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4077DF6257BEF6200697BE4 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		F4077DFD257BEFA300697BE4 /* SwiftMessages */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F4077DFC257BEFA300697BE4 /* XCRemoteSwiftPackageReference "SwiftMessages" */;
+			productName = SwiftMessages;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F4FB9B60257BCCE100D8C1F1 /* Project object */;
 }
