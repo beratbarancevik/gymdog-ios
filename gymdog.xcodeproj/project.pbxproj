@@ -20,6 +20,12 @@
 		F42D02BB257BFF040022B804 /* SplashControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02BA257BFF040022B804 /* SplashControllerViewModel.swift */; };
 		F42D02D2257BFF940022B804 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02D1257BFF940022B804 /* SplashCoordinator.swift */; };
 		F42D02DA257BFFA70022B804 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02D9257BFFA70022B804 /* TabCoordinator.swift */; };
+		F42D02E2257C00B60022B804 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02E1257C00B60022B804 /* BaseCoordinator.swift */; };
+		F42D02EA257C00DD0022B804 /* BaseControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02E9257C00DD0022B804 /* BaseControllerViewModel.swift */; };
+		F42D02F2257C00F50022B804 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02F1257C00F50022B804 /* BaseView.swift */; };
+		F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02F6257C00FD0022B804 /* BaseTableCell.swift */; };
+		F42D02FC257C01060022B804 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02FB257C01060022B804 /* BaseCollectionCell.swift */; };
+		F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */; };
 		F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */; };
 		F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */; };
 		F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47120BB257BF0FC007DCE8D /* Colors.xcassets */; };
@@ -76,6 +82,12 @@
 		F42D02BA257BFF040022B804 /* SplashControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashControllerViewModel.swift; sourceTree = "<group>"; };
 		F42D02D1257BFF940022B804 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
 		F42D02D9257BFFA70022B804 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		F42D02E1257C00B60022B804 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		F42D02E9257C00DD0022B804 /* BaseControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseControllerViewModel.swift; sourceTree = "<group>"; };
+		F42D02F1257C00F50022B804 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		F42D02F6257C00FD0022B804 /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
+		F42D02FB257C01060022B804 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
+		F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableHeaderFooterView.swift; sourceTree = "<group>"; };
 		F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Debug.plist"; sourceTree = "<group>"; };
 		F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
 		F47120BB257BF0FC007DCE8D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -422,7 +434,9 @@
 		F4FC2148257BFAD70073B34F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F42D02E1257C00B60022B804 /* BaseCoordinator.swift */,
 				F4FC214D257BFB970073B34F /* BaseController.swift */,
+				F42D02E9257C00DD0022B804 /* BaseControllerViewModel.swift */,
 				F4FC2155257BFBA00073B34F /* BaseNavigationController.swift */,
 			);
 			path = Base;
@@ -431,6 +445,10 @@
 		F4FC2149257BFAED0073B34F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F42D02FB257C01060022B804 /* BaseCollectionCell.swift */,
+				F42D02F6257C00FD0022B804 /* BaseTableCell.swift */,
+				F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */,
+				F42D02F1257C00F50022B804 /* BaseView.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -769,10 +787,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42D02FC257C01060022B804 /* BaseCollectionCell.swift in Sources */,
 				F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */,
+				F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */,
 				F4FC2127257BF7310073B34F /* Encodable+Extensions.swift in Sources */,
 				F42D02AD257BFE870022B804 /* TabControllerViewModel.swift in Sources */,
 				F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */,
+				F42D02E2257C00B60022B804 /* BaseCoordinator.swift in Sources */,
+				F42D02EA257C00DD0022B804 /* BaseControllerViewModel.swift in Sources */,
 				F4FC212F257BF7490073B34F /* Date+Extensions.swift in Sources */,
 				F42D02D2257BFF940022B804 /* SplashCoordinator.swift in Sources */,
 				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
@@ -783,9 +805,11 @@
 				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
 				F4FC2156257BFBA00073B34F /* BaseNavigationController.swift in Sources */,
 				F42D02A8257BFE7F0022B804 /* TabController.swift in Sources */,
+				F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */,
 				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
 				F4FB9B70257BCCE100D8C1F1 /* SplashController.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
+				F42D02F2257C00F50022B804 /* BaseView.swift in Sources */,
 				F4FC20EB257BF4400073B34F /* UIColor+Extensions.swift in Sources */,
 				F4FC2112257BF66A0073B34F /* Error.swift in Sources */,
 				F4FC20FD257BF5EC0073B34F /* Images.swift in Sources */,
