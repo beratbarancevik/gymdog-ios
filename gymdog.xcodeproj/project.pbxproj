@@ -17,6 +17,7 @@
 		F4077DFE257BEFA300697BE4 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DFD257BEFA300697BE4 /* SwiftMessages */; };
 		F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */; };
 		F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */; };
+		F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47120BB257BF0FC007DCE8D /* Colors.xcassets */; };
 		F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48455E4257BD33C00FE3C52 /* Info-Release.plist */; };
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
 		F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */; };
@@ -53,6 +54,7 @@
 		EEC5B2E6C16E1001E7B02233 /* Pods_gymdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gymdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Debug.plist"; sourceTree = "<group>"; };
 		F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
+		F47120BB257BF0FC007DCE8D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		F48455E4257BD33C00FE3C52 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
 		F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Dog Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -143,6 +145,7 @@
 			isa = PBXGroup;
 			children = (
 				F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */,
+				F47120BB257BF0FC007DCE8D /* Colors.xcassets */,
 			);
 			path = Assets;
 			sourceTree = "<group>";
@@ -154,6 +157,56 @@
 				F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */,
 			);
 			path = Keys;
+			sourceTree = "<group>";
+		};
+		F47120C0257BF113007DCE8D /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		F47120C1257BF11C007DCE8D /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		F47120C2257BF126007DCE8D /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		F47120C3257BF12D007DCE8D /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F47120C4257BF136007DCE8D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F47120C5257BF13E007DCE8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F47120C6257BF144007DCE8D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */,
+			);
+			path = Modules;
 			sourceTree = "<group>";
 		};
 		F4FB9B5F257BCCE100D8C1F1 = {
@@ -181,7 +234,13 @@
 		F4FB9B6A257BCCE100D8C1F1 /* gymdog */ = {
 			isa = PBXGroup;
 			children = (
-				F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */,
+				F47120C4257BF136007DCE8D /* Models */,
+				F47120C5257BF13E007DCE8D /* Views */,
+				F47120C6257BF144007DCE8D /* Modules */,
+				F47120C3257BF12D007DCE8D /* Services */,
+				F47120C2257BF126007DCE8D /* Managers */,
+				F47120C1257BF11C007DCE8D /* Extensions */,
+				F47120C0257BF113007DCE8D /* Utility */,
 				F4077E02257BF01800697BE4 /* Supporting Files */,
 			);
 			path = gymdog;
@@ -331,6 +390,7 @@
 				F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */,
 				F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */,
 				F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */,
+				F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */,
 				F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */,
 				F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */,
 			);
