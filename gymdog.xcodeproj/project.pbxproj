@@ -3,14 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
-		F4FB9B6E257BCCE100D8C1F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6D257BCCE100D8C1F1 /* SceneDelegate.swift */; };
 		F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */; };
-		F4FB9B73257BCCE100D8C1F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B71257BCCE100D8C1F1 /* Main.storyboard */; };
 		F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */; };
 		F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */; };
 		F4FB9B83257BCCE300D8C1F1 /* gymdogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B82257BCCE300D8C1F1 /* gymdogTests.swift */; };
@@ -37,9 +35,7 @@
 /* Begin PBXFileReference section */
 		F4FB9B68257BCCE100D8C1F1 /* gymdog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gymdog.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4FB9B6D257BCCE100D8C1F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4FB9B72257BCCE100D8C1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FB9B77257BCCE300D8C1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4FB9B79257BCCE300D8C1F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -100,9 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */,
-				F4FB9B6D257BCCE100D8C1F1 /* SceneDelegate.swift */,
 				F4FB9B6F257BCCE100D8C1F1 /* ViewController.swift */,
-				F4FB9B71257BCCE100D8C1F1 /* Main.storyboard */,
 				F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */,
 				F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */,
 				F4FB9B79257BCCE300D8C1F1 /* Info.plist */,
@@ -207,7 +201,7 @@
 				};
 			};
 			buildConfigurationList = F4FB9B63257BCCE100D8C1F1 /* Build configuration list for PBXProject "gymdog" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -233,7 +227,6 @@
 			files = (
 				F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */,
 				F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */,
-				F4FB9B73257BCCE100D8C1F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +253,6 @@
 			files = (
 				F4FB9B70257BCCE100D8C1F1 /* ViewController.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
-				F4FB9B6E257BCCE100D8C1F1 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +288,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F4FB9B71257BCCE100D8C1F1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4FB9B72257BCCE100D8C1F1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -443,10 +427,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beratbarancevik.gymdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -462,10 +447,11 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beratbarancevik.gymdog;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
