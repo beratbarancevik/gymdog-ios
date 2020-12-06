@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseNavigationController: UINavigationController {
-    // MARK: - UI Properties
+    // MARK: - Properties
     override var preferredStatusBarStyle: UIStatusBarStyle {
         if let rootViewController = viewControllers.last {
             return rootViewController.preferredStatusBarStyle

@@ -7,11 +7,12 @@
 
 import UIKit
 
-class WorkoutHomeController: BaseController {
+final class WorkoutHomeController: BaseController {
     // MARK: - Properties
+    let workoutHomeView = WorkoutHomeView()
     
     // MARK: - Lifecycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func loadView() {
+        view = workoutHomeView
     }
 }

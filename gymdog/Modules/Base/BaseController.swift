@@ -17,12 +17,11 @@ import UIKit
 }
 
 class BaseController: UIViewController {
-    // MARK: - UI Properties
+    // MARK: - Properties
     var safeArea: UILayoutGuide {
         return view.safeAreaLayoutGuide
     }
     
-    // MARK: - Properties
     #if DEBUG
     /// Used for UI testing
     var isRunningTests: Bool {

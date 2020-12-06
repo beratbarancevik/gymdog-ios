@@ -28,6 +28,10 @@
 		F448B759257CDD07004535B8 /* TabRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B758257CDD07004535B8 /* TabRouter.swift */; };
 		F448B75F257CDE12004535B8 /* WorkoutHomeConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B75E257CDE12004535B8 /* WorkoutHomeConfigurator.swift */; };
 		F448B76A257CDFF6004535B8 /* WorkoutHomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B769257CDFF6004535B8 /* WorkoutHomeController.swift */; };
+		F448B76F257CF5E1004535B8 /* WorkoutHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B76E257CF5E1004535B8 /* WorkoutHomeView.swift */; };
+		F448B774257CF66A004535B8 /* WorkoutHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B773257CF66A004535B8 /* WorkoutHomeInteractor.swift */; };
+		F448B77C257CF684004535B8 /* WorkoutHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B77B257CF684004535B8 /* WorkoutHomePresenter.swift */; };
+		F448B781257CF6A2004535B8 /* WorkoutHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B780257CF6A2004535B8 /* WorkoutHomeRouter.swift */; };
 		F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */; };
 		F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */; };
 		F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47120BB257BF0FC007DCE8D /* Colors.xcassets */; };
@@ -100,6 +104,10 @@
 		F448B758257CDD07004535B8 /* TabRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabRouter.swift; sourceTree = "<group>"; };
 		F448B75E257CDE12004535B8 /* WorkoutHomeConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeConfigurator.swift; sourceTree = "<group>"; };
 		F448B769257CDFF6004535B8 /* WorkoutHomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeController.swift; sourceTree = "<group>"; };
+		F448B76E257CF5E1004535B8 /* WorkoutHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeView.swift; sourceTree = "<group>"; };
+		F448B773257CF66A004535B8 /* WorkoutHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeInteractor.swift; sourceTree = "<group>"; };
+		F448B77B257CF684004535B8 /* WorkoutHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomePresenter.swift; sourceTree = "<group>"; };
+		F448B780257CF6A2004535B8 /* WorkoutHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeRouter.swift; sourceTree = "<group>"; };
 		F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Debug.plist"; sourceTree = "<group>"; };
 		F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
 		F47120BB257BF0FC007DCE8D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -221,6 +229,10 @@
 			children = (
 				F448B75E257CDE12004535B8 /* WorkoutHomeConfigurator.swift */,
 				F448B769257CDFF6004535B8 /* WorkoutHomeController.swift */,
+				F448B773257CF66A004535B8 /* WorkoutHomeInteractor.swift */,
+				F448B77B257CF684004535B8 /* WorkoutHomePresenter.swift */,
+				F448B780257CF6A2004535B8 /* WorkoutHomeRouter.swift */,
+				F448B76E257CF5E1004535B8 /* WorkoutHomeView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -306,8 +318,6 @@
 			children = (
 				F4FC2148257BFAD70073B34F /* Base */,
 				F4FC2143257BFA810073B34F /* Account */,
-				F4FC2147257BFAB40073B34F /* Share */,
-				F4FC213F257BFA4D0073B34F /* Sleep */,
 				F4FC213D257BFA250073B34F /* Splash */,
 				F4FC2141257BFA680073B34F /* Tab */,
 				F4FC213E257BFA470073B34F /* Workout */,
@@ -394,13 +404,6 @@
 			path = Workout;
 			sourceTree = "<group>";
 		};
-		F4FC213F257BFA4D0073B34F /* Sleep */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sleep;
-			sourceTree = "<group>";
-		};
 		F4FC2141257BFA680073B34F /* Tab */ = {
 			isa = PBXGroup;
 			children = (
@@ -450,13 +453,6 @@
 			children = (
 			);
 			path = Settings;
-			sourceTree = "<group>";
-		};
-		F4FC2147257BFAB40073B34F /* Share */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Share;
 			sourceTree = "<group>";
 		};
 		F4FC2148257BFAD70073B34F /* Base */ = {
@@ -826,10 +822,12 @@
 				F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */,
 				F4C587D0257CBC2D00D07395 /* BaseInteractor.swift in Sources */,
 				F4C587C6257CBC0D00D07395 /* SplashInteractor.swift in Sources */,
+				F448B774257CF66A004535B8 /* WorkoutHomeInteractor.swift in Sources */,
 				F4C587AB257CB7D900D07395 /* SplashController.swift in Sources */,
 				F448B74A257CDBB3004535B8 /* TabController.swift in Sources */,
 				F4FC212F257BF7490073B34F /* Date+Extensions.swift in Sources */,
 				F448B73B257CD449004535B8 /* WindowManager.swift in Sources */,
+				F448B76F257CF5E1004535B8 /* WorkoutHomeView.swift in Sources */,
 				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
 				F4FC214E257BFB970073B34F /* BaseController.swift in Sources */,
 				F448B740257CD51A004535B8 /* TabConfigurator.swift in Sources */,
@@ -842,9 +840,11 @@
 				F448B75F257CDE12004535B8 /* WorkoutHomeConfigurator.swift in Sources */,
 				F4FC2156257BFBA00073B34F /* BaseNavigationController.swift in Sources */,
 				F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */,
+				F448B77C257CF684004535B8 /* WorkoutHomePresenter.swift in Sources */,
 				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
 				F4C587E2257CBCA400D07395 /* BasePresenter.swift in Sources */,
 				F448B759257CDD07004535B8 /* TabRouter.swift in Sources */,
+				F448B781257CF6A2004535B8 /* WorkoutHomeRouter.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
 				F42D02F2257C00F50022B804 /* BaseView.swift in Sources */,
 				F4FC20EB257BF4400073B34F /* UIColor+Extensions.swift in Sources */,

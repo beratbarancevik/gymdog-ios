@@ -13,7 +13,7 @@ import UIKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-    // MARK: - UI Properties
+    // MARK: - Properties
     var window: UIWindow?
     
     // MARK: - UIApplicationDelegate

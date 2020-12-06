@@ -8,10 +8,9 @@
 import UIKit
 
 final class SplashController: BaseController {
-    // MARK: - UI Properties
+    // MARK: - Properties
     private let splashView = SplashView()
     
-    // MARK: - Properties
     var interactor: SplashInteractor?
     var router: SplashRouter?
     

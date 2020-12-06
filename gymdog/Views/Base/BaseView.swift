@@ -8,7 +8,7 @@
 import UIKit
 
 class BaseView: UIView {
-    // MARK: - UI Properties
+    // MARK: - Properties
     var safeArea: UILayoutGuide {
         return safeAreaLayoutGuide
     }

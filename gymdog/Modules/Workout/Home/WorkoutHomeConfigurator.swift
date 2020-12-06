@@ -6,7 +6,7 @@
 //
 
 final class WorkoutHomeConfigurator: BaseConfigurator {
-    // MARK: - UI Properties
+    // MARK: - Properties
     var navigationController: BaseNavigationController?
     
     // MARK: - Init

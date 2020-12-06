@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SplashView: BaseView {
+final class SplashView: BaseView {
     // MARK: - Properties
     private let logoImageView: UIImageView = {
         $0.image = Images.workout.image
