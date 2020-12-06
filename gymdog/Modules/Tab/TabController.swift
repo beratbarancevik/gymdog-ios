@@ -23,10 +23,13 @@ final class TabController: UITabBarController {
 private extension TabController {
     func configureTabs() {
         let workoutHomeNavigationController = generateNavigationController(tabImage: .workout)
+        let authenticationNavigationController = generateNavigationController(tabImage: .account)
         viewControllers = [
-            workoutHomeNavigationController
+            workoutHomeNavigationController,
+            authenticationNavigationController
         ]
         configureTab(.workout, navigationController: workoutHomeNavigationController)
+        configureTab(.account, navigationController: authenticationNavigationController)
         
         if let items = tabBar.items {
             items.forEach({
@@ -43,6 +46,8 @@ private extension TabController {
     
     func configureTab<T: BaseNavigationController>(_ tab: Tab, navigationController: T) {
         switch tab {
+        case .account:
+            AuthenticationConfigurator(navigationController: navigationController).configure()
         case .workout:
             WorkoutHomeConfigurator(navigationController: navigationController).configure()
         }

@@ -35,6 +35,7 @@ private extension AppDelegate {
     func setUpUI() {
         NetworkActivityIndicatorManager.shared.isEnabled = true
         Theme.configure()
+        window = UIWindow(frame: UIScreen.main.bounds)
     }
     
     func displaySplash() {

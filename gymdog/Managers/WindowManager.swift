@@ -17,7 +17,6 @@ class WindowManager {
     // MARK: - Functions
     func displayController(_ controller: BaseController) {
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
-        appDelegate.window = UIWindow(frame: UIScreen.main.bounds)
         appDelegate.window?.rootViewController = controller
         appDelegate.window?.makeKeyAndVisible()
     }

@@ -8,6 +8,7 @@
 import UIKit
 
 enum Images: String, CaseIterable {
+    case account
     case workout
     
     var image: UIImage {

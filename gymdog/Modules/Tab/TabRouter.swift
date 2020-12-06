@@ -11,6 +11,7 @@ final class TabRouter: BaseRouter {
 }
 
 // MARK: - Tab
-enum Tab {
+enum Tab: CaseIterable {
+    case account
     case workout
 }

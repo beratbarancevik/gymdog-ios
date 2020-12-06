@@ -32,6 +32,12 @@
 		F448B774257CF66A004535B8 /* WorkoutHomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B773257CF66A004535B8 /* WorkoutHomeInteractor.swift */; };
 		F448B77C257CF684004535B8 /* WorkoutHomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B77B257CF684004535B8 /* WorkoutHomePresenter.swift */; };
 		F448B781257CF6A2004535B8 /* WorkoutHomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B780257CF6A2004535B8 /* WorkoutHomeRouter.swift */; };
+		F448B78C257CFC13004535B8 /* AuthenticationConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B78B257CFC13004535B8 /* AuthenticationConfigurator.swift */; };
+		F448B791257CFC1B004535B8 /* AuthenticationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B790257CFC1B004535B8 /* AuthenticationController.swift */; };
+		F448B796257CFC25004535B8 /* AuthenticationInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B795257CFC25004535B8 /* AuthenticationInteractor.swift */; };
+		F448B79B257CFC2F004535B8 /* AuthenticationRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B79A257CFC2E004535B8 /* AuthenticationRouter.swift */; };
+		F448B7A0257CFC38004535B8 /* AuthenticationPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B79F257CFC38004535B8 /* AuthenticationPresenter.swift */; };
+		F448B7A5257CFC44004535B8 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B7A4257CFC44004535B8 /* AuthenticationView.swift */; };
 		F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */; };
 		F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */; };
 		F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47120BB257BF0FC007DCE8D /* Colors.xcassets */; };
@@ -108,6 +114,12 @@
 		F448B773257CF66A004535B8 /* WorkoutHomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeInteractor.swift; sourceTree = "<group>"; };
 		F448B77B257CF684004535B8 /* WorkoutHomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomePresenter.swift; sourceTree = "<group>"; };
 		F448B780257CF6A2004535B8 /* WorkoutHomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeRouter.swift; sourceTree = "<group>"; };
+		F448B78B257CFC13004535B8 /* AuthenticationConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationConfigurator.swift; sourceTree = "<group>"; };
+		F448B790257CFC1B004535B8 /* AuthenticationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationController.swift; sourceTree = "<group>"; };
+		F448B795257CFC25004535B8 /* AuthenticationInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationInteractor.swift; sourceTree = "<group>"; };
+		F448B79A257CFC2E004535B8 /* AuthenticationRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationRouter.swift; sourceTree = "<group>"; };
+		F448B79F257CFC38004535B8 /* AuthenticationPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationPresenter.swift; sourceTree = "<group>"; };
+		F448B7A4257CFC44004535B8 /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
 		F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Debug.plist"; sourceTree = "<group>"; };
 		F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
 		F47120BB257BF0FC007DCE8D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -437,6 +449,12 @@
 		F4FC2144257BFA8B0073B34F /* Authentication */ = {
 			isa = PBXGroup;
 			children = (
+				F448B78B257CFC13004535B8 /* AuthenticationConfigurator.swift */,
+				F448B790257CFC1B004535B8 /* AuthenticationController.swift */,
+				F448B795257CFC25004535B8 /* AuthenticationInteractor.swift */,
+				F448B79F257CFC38004535B8 /* AuthenticationPresenter.swift */,
+				F448B79A257CFC2E004535B8 /* AuthenticationRouter.swift */,
+				F448B7A4257CFC44004535B8 /* AuthenticationView.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -815,6 +833,7 @@
 			files = (
 				F448B74F257CDC81004535B8 /* TabInteractor.swift in Sources */,
 				F42D02FC257C01060022B804 /* BaseCollectionCell.swift in Sources */,
+				F448B78C257CFC13004535B8 /* AuthenticationConfigurator.swift in Sources */,
 				F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */,
 				F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */,
 				F448B754257CDCB1004535B8 /* TabPresenter.swift in Sources */,
@@ -829,10 +848,14 @@
 				F448B73B257CD449004535B8 /* WindowManager.swift in Sources */,
 				F448B76F257CF5E1004535B8 /* WorkoutHomeView.swift in Sources */,
 				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
+				F448B7A0257CFC38004535B8 /* AuthenticationPresenter.swift in Sources */,
+				F448B7A5257CFC44004535B8 /* AuthenticationView.swift in Sources */,
+				F448B796257CFC25004535B8 /* AuthenticationInteractor.swift in Sources */,
 				F4FC214E257BFB970073B34F /* BaseController.swift in Sources */,
 				F448B740257CD51A004535B8 /* TabConfigurator.swift in Sources */,
 				F4C587BE257CB91800D07395 /* BaseConfigurator.swift in Sources */,
 				F4C587B6257CB8F900D07395 /* SplashConfigurator.swift in Sources */,
+				F448B791257CFC1B004535B8 /* AuthenticationController.swift in Sources */,
 				F4FC211A257BF7050073B34F /* UIView+Extensions.swift in Sources */,
 				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
 				F448B745257CD823004535B8 /* SplashView.swift in Sources */,
@@ -844,6 +867,7 @@
 				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
 				F4C587E2257CBCA400D07395 /* BasePresenter.swift in Sources */,
 				F448B759257CDD07004535B8 /* TabRouter.swift in Sources */,
+				F448B79B257CFC2F004535B8 /* AuthenticationRouter.swift in Sources */,
 				F448B781257CF6A2004535B8 /* WorkoutHomeRouter.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
 				F42D02F2257C00F50022B804 /* BaseView.swift in Sources */,
