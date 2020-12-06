@@ -8,6 +8,11 @@
 import UIKit
 
 class BaseView: UIView {
+    // MARK: - UI Properties
+    var safeArea: UILayoutGuide {
+        return safeAreaLayoutGuide
+    }
+    
     // MARK: - Init
     override init(frame: CGRect) {
         super.init(frame: frame)

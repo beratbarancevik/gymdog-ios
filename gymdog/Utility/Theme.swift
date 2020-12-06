@@ -30,7 +30,7 @@ enum Theme {
         return .insetGrouped
     }
     
-    static func configureTheme() {
+    static func configure() {
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont.systemFont(ofSize: 15)], for: .normal)
     }
     

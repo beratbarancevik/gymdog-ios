@@ -7,15 +7,21 @@
 
 import UIKit
 
-class SplashController: BaseController {
+final class SplashController: BaseController {
     // MARK: - UI Properties
-    private let logoImageView: UIImageView = {
-        $0.image = Images.workout.image
-        return $0
-    }(UIImageView().style(Theme.Image.primary))
+    private let splashView = SplashView()
+    
+    // MARK: - Properties
+    var interactor: SplashInteractor?
+    var router: SplashRouter?
     
     // MARK: - Lifecycle
-    override func viewDidLoad() {
-        super.viewDidLoad()
+    override func loadView() {
+        view = splashView
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        router?.displayTabController()
     }
 }

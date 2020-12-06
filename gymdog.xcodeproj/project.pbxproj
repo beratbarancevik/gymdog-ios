@@ -19,12 +19,23 @@
 		F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02F6257C00FD0022B804 /* BaseTableCell.swift */; };
 		F42D02FC257C01060022B804 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02FB257C01060022B804 /* BaseCollectionCell.swift */; };
 		F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */; };
+		F448B73B257CD449004535B8 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B73A257CD449004535B8 /* WindowManager.swift */; };
+		F448B740257CD51A004535B8 /* TabConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B73F257CD51A004535B8 /* TabConfigurator.swift */; };
+		F448B745257CD823004535B8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B744257CD823004535B8 /* SplashView.swift */; };
 		F47120B6257BF0AD007DCE8D /* GoogleService-Info-Debug.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */; };
 		F47120B7257BF0AD007DCE8D /* GoogleService-Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */; };
 		F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47120BB257BF0FC007DCE8D /* Colors.xcassets */; };
 		F47120CC257BF1AC007DCE8D /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47120CB257BF1AB007DCE8D /* AuthenticationServices.framework */; };
 		F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48455E4257BD33C00FE3C52 /* Info-Release.plist */; };
 		F4C587AB257CB7D900D07395 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587AA257CB7D900D07395 /* SplashController.swift */; };
+		F4C587B6257CB8F900D07395 /* SplashConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587B5257CB8F900D07395 /* SplashConfigurator.swift */; };
+		F4C587BE257CB91800D07395 /* BaseConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587BD257CB91800D07395 /* BaseConfigurator.swift */; };
+		F4C587C6257CBC0D00D07395 /* SplashInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587C5257CBC0D00D07395 /* SplashInteractor.swift */; };
+		F4C587CB257CBC1400D07395 /* SplashRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587CA257CBC1400D07395 /* SplashRouter.swift */; };
+		F4C587D0257CBC2D00D07395 /* BaseInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587CF257CBC2D00D07395 /* BaseInteractor.swift */; };
+		F4C587D5257CBC5300D07395 /* BaseRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587D4257CBC5300D07395 /* BaseRouter.swift */; };
+		F4C587DD257CBC9A00D07395 /* SplashPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587DC257CBC9A00D07395 /* SplashPresenter.swift */; };
+		F4C587E2257CBCA400D07395 /* BasePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587E1257CBCA400D07395 /* BasePresenter.swift */; };
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
 		F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */; };
 		F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */; };
@@ -74,6 +85,9 @@
 		F42D02F6257C00FD0022B804 /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
 		F42D02FB257C01060022B804 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
 		F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableHeaderFooterView.swift; sourceTree = "<group>"; };
+		F448B73A257CD449004535B8 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
+		F448B73F257CD51A004535B8 /* TabConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabConfigurator.swift; sourceTree = "<group>"; };
+		F448B744257CD823004535B8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		F47120B4257BF0AD007DCE8D /* GoogleService-Info-Debug.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Debug.plist"; sourceTree = "<group>"; };
 		F47120B5257BF0AD007DCE8D /* GoogleService-Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-Release.plist"; sourceTree = "<group>"; };
 		F47120BB257BF0FC007DCE8D /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
@@ -81,6 +95,14 @@
 		F47120CB257BF1AB007DCE8D /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		F48455E4257BD33C00FE3C52 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
 		F4C587AA257CB7D900D07395 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		F4C587B5257CB8F900D07395 /* SplashConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashConfigurator.swift; sourceTree = "<group>"; };
+		F4C587BD257CB91800D07395 /* BaseConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseConfigurator.swift; sourceTree = "<group>"; };
+		F4C587C5257CBC0D00D07395 /* SplashInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashInteractor.swift; sourceTree = "<group>"; };
+		F4C587CA257CBC1400D07395 /* SplashRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashRouter.swift; sourceTree = "<group>"; };
+		F4C587CF257CBC2D00D07395 /* BaseInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInteractor.swift; sourceTree = "<group>"; };
+		F4C587D4257CBC5300D07395 /* BaseRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRouter.swift; sourceTree = "<group>"; };
+		F4C587DC257CBC9A00D07395 /* SplashPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashPresenter.swift; sourceTree = "<group>"; };
+		F4C587E1257CBCA400D07395 /* BasePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasePresenter.swift; sourceTree = "<group>"; };
 		F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Dog Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -228,6 +250,7 @@
 		F47120C2257BF126007DCE8D /* Managers */ = {
 			isa = PBXGroup;
 			children = (
+				F448B73A257CD449004535B8 /* WindowManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -333,7 +356,12 @@
 		F4FC213D257BFA250073B34F /* Splash */ = {
 			isa = PBXGroup;
 			children = (
+				F4C587B5257CB8F900D07395 /* SplashConfigurator.swift */,
 				F4C587AA257CB7D900D07395 /* SplashController.swift */,
+				F4C587C5257CBC0D00D07395 /* SplashInteractor.swift */,
+				F4C587DC257CBC9A00D07395 /* SplashPresenter.swift */,
+				F4C587CA257CBC1400D07395 /* SplashRouter.swift */,
+				F448B744257CD823004535B8 /* SplashView.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -362,6 +390,7 @@
 		F4FC2141257BFA680073B34F /* Tab */ = {
 			isa = PBXGroup;
 			children = (
+				F448B73F257CD51A004535B8 /* TabConfigurator.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -415,8 +444,12 @@
 		F4FC2148257BFAD70073B34F /* Base */ = {
 			isa = PBXGroup;
 			children = (
+				F4C587BD257CB91800D07395 /* BaseConfigurator.swift */,
 				F4FC214D257BFB970073B34F /* BaseController.swift */,
+				F4C587CF257CBC2D00D07395 /* BaseInteractor.swift */,
 				F4FC2155257BFBA00073B34F /* BaseNavigationController.swift */,
+				F4C587E1257CBCA400D07395 /* BasePresenter.swift */,
+				F4C587D4257CBC5300D07395 /* BaseRouter.swift */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -771,20 +804,31 @@
 				F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */,
 				F4FC2127257BF7310073B34F /* Encodable+Extensions.swift in Sources */,
 				F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */,
+				F4C587D0257CBC2D00D07395 /* BaseInteractor.swift in Sources */,
+				F4C587C6257CBC0D00D07395 /* SplashInteractor.swift in Sources */,
 				F4C587AB257CB7D900D07395 /* SplashController.swift in Sources */,
 				F4FC212F257BF7490073B34F /* Date+Extensions.swift in Sources */,
+				F448B73B257CD449004535B8 /* WindowManager.swift in Sources */,
 				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
 				F4FC214E257BFB970073B34F /* BaseController.swift in Sources */,
+				F448B740257CD51A004535B8 /* TabConfigurator.swift in Sources */,
+				F4C587BE257CB91800D07395 /* BaseConfigurator.swift in Sources */,
+				F4C587B6257CB8F900D07395 /* SplashConfigurator.swift in Sources */,
 				F4FC211A257BF7050073B34F /* UIView+Extensions.swift in Sources */,
 				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
+				F448B745257CD823004535B8 /* SplashView.swift in Sources */,
+				F4C587CB257CBC1400D07395 /* SplashRouter.swift in Sources */,
 				F4FC2156257BFBA00073B34F /* BaseNavigationController.swift in Sources */,
 				F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */,
 				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
+				F4C587E2257CBCA400D07395 /* BasePresenter.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
 				F42D02F2257C00F50022B804 /* BaseView.swift in Sources */,
 				F4FC20EB257BF4400073B34F /* UIColor+Extensions.swift in Sources */,
+				F4C587D5257CBC5300D07395 /* BaseRouter.swift in Sources */,
 				F4FC2112257BF66A0073B34F /* Error.swift in Sources */,
 				F4FC20FD257BF5EC0073B34F /* Images.swift in Sources */,
+				F4C587DD257CBC9A00D07395 /* SplashPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

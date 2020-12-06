@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         setUpFirebase()
         setUpUI()
-        displayHome()
+        displaySplash()
         return true
     }
 }
@@ -34,12 +34,10 @@ private extension AppDelegate {
     
     func setUpUI() {
         NetworkActivityIndicatorManager.shared.isEnabled = true
-        Theme.configureTheme()
+        Theme.configure()
     }
     
-    func displayHome() {
-        window = UIWindow(frame: UIScreen.main.bounds)
-        window?.rootViewController = SplashController()
-        window?.makeKeyAndVisible()
+    func displaySplash() {
+        SplashConfigurator().configure()
     }
 }
