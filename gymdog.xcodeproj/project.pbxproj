@@ -15,13 +15,6 @@
 		F4077DF2257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DF1257BEE0D00697BE4 /* AlamofireNetworkActivityIndicator */; };
 		F4077DF8257BEF6200697BE4 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DF7257BEF6200697BE4 /* Kingfisher */; };
 		F4077DFE257BEFA300697BE4 /* SwiftMessages in Frameworks */ = {isa = PBXBuildFile; productRef = F4077DFD257BEFA300697BE4 /* SwiftMessages */; };
-		F42D02A8257BFE7F0022B804 /* TabController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02A7257BFE7F0022B804 /* TabController.swift */; };
-		F42D02AD257BFE870022B804 /* TabControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02AC257BFE870022B804 /* TabControllerViewModel.swift */; };
-		F42D02BB257BFF040022B804 /* SplashControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02BA257BFF040022B804 /* SplashControllerViewModel.swift */; };
-		F42D02D2257BFF940022B804 /* SplashCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02D1257BFF940022B804 /* SplashCoordinator.swift */; };
-		F42D02DA257BFFA70022B804 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02D9257BFFA70022B804 /* TabCoordinator.swift */; };
-		F42D02E2257C00B60022B804 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02E1257C00B60022B804 /* BaseCoordinator.swift */; };
-		F42D02EA257C00DD0022B804 /* BaseControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02E9257C00DD0022B804 /* BaseControllerViewModel.swift */; };
 		F42D02F2257C00F50022B804 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02F1257C00F50022B804 /* BaseView.swift */; };
 		F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02F6257C00FD0022B804 /* BaseTableCell.swift */; };
 		F42D02FC257C01060022B804 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02FB257C01060022B804 /* BaseCollectionCell.swift */; };
@@ -31,8 +24,8 @@
 		F47120BC257BF0FC007DCE8D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F47120BB257BF0FC007DCE8D /* Colors.xcassets */; };
 		F47120CC257BF1AC007DCE8D /* AuthenticationServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F47120CB257BF1AB007DCE8D /* AuthenticationServices.framework */; };
 		F48455E5257BD33C00FE3C52 /* Info-Release.plist in Resources */ = {isa = PBXBuildFile; fileRef = F48455E4257BD33C00FE3C52 /* Info-Release.plist */; };
+		F4C587AB257CB7D900D07395 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4C587AA257CB7D900D07395 /* SplashController.swift */; };
 		F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */; };
-		F4FB9B70257BCCE100D8C1F1 /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B6F257BCCE100D8C1F1 /* SplashController.swift */; };
 		F4FB9B75257BCCE300D8C1F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */; };
 		F4FB9B78257BCCE300D8C1F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4FB9B76257BCCE300D8C1F1 /* LaunchScreen.storyboard */; };
 		F4FB9B83257BCCE300D8C1F1 /* gymdogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FB9B82257BCCE300D8C1F1 /* gymdogTests.swift */; };
@@ -77,13 +70,6 @@
 		C7E923B19CE3AE9205817FFB /* Pods_gymdog_gymdogUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gymdog_gymdogUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E12F9752D0151EC1ED5E2758 /* Pods-gymdog-gymdogUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-gymdog-gymdogUITests.debug.xcconfig"; path = "Target Support Files/Pods-gymdog-gymdogUITests/Pods-gymdog-gymdogUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EEC5B2E6C16E1001E7B02233 /* Pods_gymdog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_gymdog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F42D02A7257BFE7F0022B804 /* TabController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabController.swift; sourceTree = "<group>"; };
-		F42D02AC257BFE870022B804 /* TabControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabControllerViewModel.swift; sourceTree = "<group>"; };
-		F42D02BA257BFF040022B804 /* SplashControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashControllerViewModel.swift; sourceTree = "<group>"; };
-		F42D02D1257BFF940022B804 /* SplashCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashCoordinator.swift; sourceTree = "<group>"; };
-		F42D02D9257BFFA70022B804 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
-		F42D02E1257C00B60022B804 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
-		F42D02E9257C00DD0022B804 /* BaseControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseControllerViewModel.swift; sourceTree = "<group>"; };
 		F42D02F1257C00F50022B804 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
 		F42D02F6257C00FD0022B804 /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
 		F42D02FB257C01060022B804 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
@@ -94,9 +80,9 @@
 		F47120CA257BF19B007DCE8D /* gymdog.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gymdog.entitlements; sourceTree = "<group>"; };
 		F47120CB257BF1AB007DCE8D /* AuthenticationServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AuthenticationServices.framework; path = System/Library/Frameworks/AuthenticationServices.framework; sourceTree = SDKROOT; };
 		F48455E4257BD33C00FE3C52 /* Info-Release.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Info-Release.plist"; sourceTree = "<group>"; };
+		F4C587AA257CB7D900D07395 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		F4FB9B68257BCCE100D8C1F1 /* Gym Dog Debug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gym Dog Debug.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4FB9B6B257BCCE100D8C1F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4FB9B6F257BCCE100D8C1F1 /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
 		F4FB9B74257BCCE300D8C1F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4FB9B77257BCCE300D8C1F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4FB9B79257BCCE300D8C1F1 /* Info-Debug.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info-Debug.plist"; sourceTree = "<group>"; };
@@ -347,9 +333,7 @@
 		F4FC213D257BFA250073B34F /* Splash */ = {
 			isa = PBXGroup;
 			children = (
-				F42D02D1257BFF940022B804 /* SplashCoordinator.swift */,
-				F4FB9B6F257BCCE100D8C1F1 /* SplashController.swift */,
-				F42D02BA257BFF040022B804 /* SplashControllerViewModel.swift */,
+				F4C587AA257CB7D900D07395 /* SplashController.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -378,9 +362,6 @@
 		F4FC2141257BFA680073B34F /* Tab */ = {
 			isa = PBXGroup;
 			children = (
-				F42D02D9257BFFA70022B804 /* TabCoordinator.swift */,
-				F42D02A7257BFE7F0022B804 /* TabController.swift */,
-				F42D02AC257BFE870022B804 /* TabControllerViewModel.swift */,
 			);
 			path = Tab;
 			sourceTree = "<group>";
@@ -434,9 +415,7 @@
 		F4FC2148257BFAD70073B34F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				F42D02E1257C00B60022B804 /* BaseCoordinator.swift */,
 				F4FC214D257BFB970073B34F /* BaseController.swift */,
-				F42D02E9257C00DD0022B804 /* BaseControllerViewModel.swift */,
 				F4FC2155257BFBA00073B34F /* BaseNavigationController.swift */,
 			);
 			path = Base;
@@ -791,23 +770,16 @@
 				F4FC210D257BF64F0073B34F /* Notifications.swift in Sources */,
 				F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */,
 				F4FC2127257BF7310073B34F /* Encodable+Extensions.swift in Sources */,
-				F42D02AD257BFE870022B804 /* TabControllerViewModel.swift in Sources */,
 				F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */,
-				F42D02E2257C00B60022B804 /* BaseCoordinator.swift in Sources */,
-				F42D02EA257C00DD0022B804 /* BaseControllerViewModel.swift in Sources */,
+				F4C587AB257CB7D900D07395 /* SplashController.swift in Sources */,
 				F4FC212F257BF7490073B34F /* Date+Extensions.swift in Sources */,
-				F42D02D2257BFF940022B804 /* SplashCoordinator.swift in Sources */,
 				F4FC2108257BF62D0073B34F /* Utility.swift in Sources */,
-				F42D02BB257BFF040022B804 /* SplashControllerViewModel.swift in Sources */,
 				F4FC214E257BFB970073B34F /* BaseController.swift in Sources */,
 				F4FC211A257BF7050073B34F /* UIView+Extensions.swift in Sources */,
-				F42D02DA257BFFA70022B804 /* TabCoordinator.swift in Sources */,
 				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
 				F4FC2156257BFBA00073B34F /* BaseNavigationController.swift in Sources */,
-				F42D02A8257BFE7F0022B804 /* TabController.swift in Sources */,
 				F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */,
 				F4FC20F5257BF54E0073B34F /* Colors.swift in Sources */,
-				F4FB9B70257BCCE100D8C1F1 /* SplashController.swift in Sources */,
 				F4FB9B6C257BCCE100D8C1F1 /* AppDelegate.swift in Sources */,
 				F42D02F2257C00F50022B804 /* BaseView.swift in Sources */,
 				F4FC20EB257BF4400073B34F /* UIColor+Extensions.swift in Sources */,

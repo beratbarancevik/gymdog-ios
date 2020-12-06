@@ -2,7 +2,7 @@
 //  SplashController.swift
 //  gymdog
 //
-//  Created by Berat Cevik on 12/5/20.
+//  Created by Berat Cevik on 12/6/20.
 //
 
 import UIKit
@@ -17,21 +17,5 @@ class SplashController: BaseController {
     // MARK: - Lifecycle
     override func viewDidLoad() {
         super.viewDidLoad()
-        addViews()
-        addConstraints()
-    }
-}
-
-// MARK: - Setup
-extension SplashController: Setup {
-    func addViews() {
-        view.addSubview(logoImageView)
-    }
-    
-    func addConstraints() {
-        logoImageView.snp.makeConstraints { maker in
-            maker.center.equalTo(safeArea)
-            maker.width.height.equalTo(128)
-        }
     }
 }
