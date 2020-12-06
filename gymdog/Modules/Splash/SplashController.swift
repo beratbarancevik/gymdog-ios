@@ -24,4 +24,8 @@ final class SplashController: BaseController {
         super.viewDidAppear(animated)
         router?.displayTabController()
     }
+    
+    deinit {
+        print("SplashController deinited")
+    }
 }

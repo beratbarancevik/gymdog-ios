@@ -21,4 +21,10 @@ class WindowManager {
         appDelegate.window?.rootViewController = controller
         appDelegate.window?.makeKeyAndVisible()
     }
+    
+    func displayController(_ controller: UITabBarController) {
+        guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
+        appDelegate.window?.rootViewController = controller
+        appDelegate.window?.makeKeyAndVisible()
+    }
 }
