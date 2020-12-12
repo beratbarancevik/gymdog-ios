@@ -19,6 +19,9 @@
 		F42D02F7257C00FD0022B804 /* BaseTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02F6257C00FD0022B804 /* BaseTableCell.swift */; };
 		F42D02FC257C01060022B804 /* BaseCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D02FB257C01060022B804 /* BaseCollectionCell.swift */; };
 		F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */; };
+		F441FE192581A670009357CB /* WorkoutHomeWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441FE182581A670009357CB /* WorkoutHomeWorker.swift */; };
+		F441FE1E2581A6A6009357CB /* AuthenticationWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441FE1D2581A6A6009357CB /* AuthenticationWorker.swift */; };
+		F441FE232581A6BB009357CB /* SplashWorker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F441FE222581A6BB009357CB /* SplashWorker.swift */; };
 		F448B73B257CD449004535B8 /* WindowManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B73A257CD449004535B8 /* WindowManager.swift */; };
 		F448B740257CD51A004535B8 /* TabConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B73F257CD51A004535B8 /* TabConfigurator.swift */; };
 		F448B745257CD823004535B8 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F448B744257CD823004535B8 /* SplashView.swift */; };
@@ -101,6 +104,9 @@
 		F42D02F6257C00FD0022B804 /* BaseTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableCell.swift; sourceTree = "<group>"; };
 		F42D02FB257C01060022B804 /* BaseCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCollectionCell.swift; sourceTree = "<group>"; };
 		F42D0303257C018D0022B804 /* BaseTableHeaderFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseTableHeaderFooterView.swift; sourceTree = "<group>"; };
+		F441FE182581A670009357CB /* WorkoutHomeWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutHomeWorker.swift; sourceTree = "<group>"; };
+		F441FE1D2581A6A6009357CB /* AuthenticationWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationWorker.swift; sourceTree = "<group>"; };
+		F441FE222581A6BB009357CB /* SplashWorker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashWorker.swift; sourceTree = "<group>"; };
 		F448B73A257CD449004535B8 /* WindowManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowManager.swift; sourceTree = "<group>"; };
 		F448B73F257CD51A004535B8 /* TabConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabConfigurator.swift; sourceTree = "<group>"; };
 		F448B744257CD823004535B8 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -245,6 +251,7 @@
 				F448B77B257CF684004535B8 /* WorkoutHomePresenter.swift */,
 				F448B780257CF6A2004535B8 /* WorkoutHomeRouter.swift */,
 				F448B76E257CF5E1004535B8 /* WorkoutHomeView.swift */,
+				F441FE182581A670009357CB /* WorkoutHomeWorker.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -404,6 +411,7 @@
 				F4C587DC257CBC9A00D07395 /* SplashPresenter.swift */,
 				F4C587CA257CBC1400D07395 /* SplashRouter.swift */,
 				F448B744257CD823004535B8 /* SplashView.swift */,
+				F441FE222581A6BB009357CB /* SplashWorker.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -455,6 +463,7 @@
 				F448B79F257CFC38004535B8 /* AuthenticationPresenter.swift */,
 				F448B79A257CFC2E004535B8 /* AuthenticationRouter.swift */,
 				F448B7A4257CFC44004535B8 /* AuthenticationView.swift */,
+				F441FE1D2581A6A6009357CB /* AuthenticationWorker.swift */,
 			);
 			path = Authentication;
 			sourceTree = "<group>";
@@ -840,6 +849,7 @@
 				F4FC2127257BF7310073B34F /* Encodable+Extensions.swift in Sources */,
 				F4FC211F257BF71A0073B34F /* String+Extensions.swift in Sources */,
 				F4C587D0257CBC2D00D07395 /* BaseInteractor.swift in Sources */,
+				F441FE192581A670009357CB /* WorkoutHomeWorker.swift in Sources */,
 				F4C587C6257CBC0D00D07395 /* SplashInteractor.swift in Sources */,
 				F448B774257CF66A004535B8 /* WorkoutHomeInteractor.swift in Sources */,
 				F4C587AB257CB7D900D07395 /* SplashController.swift in Sources */,
@@ -860,7 +870,9 @@
 				F4FC20E6257BF3E50073B34F /* Theme.swift in Sources */,
 				F448B745257CD823004535B8 /* SplashView.swift in Sources */,
 				F4C587CB257CBC1400D07395 /* SplashRouter.swift in Sources */,
+				F441FE232581A6BB009357CB /* SplashWorker.swift in Sources */,
 				F448B75F257CDE12004535B8 /* WorkoutHomeConfigurator.swift in Sources */,
+				F441FE1E2581A6A6009357CB /* AuthenticationWorker.swift in Sources */,
 				F4FC2156257BFBA00073B34F /* BaseNavigationController.swift in Sources */,
 				F42D0304257C018D0022B804 /* BaseTableHeaderFooterView.swift in Sources */,
 				F448B77C257CF684004535B8 /* WorkoutHomePresenter.swift in Sources */,
