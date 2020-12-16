@@ -1059,6 +1059,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Debug";
 				CODE_SIGN_ENTITLEMENTS = gymdog/gymdog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3978A7VN36;
 				INFOPLIST_FILE = "$(SRCROOT)/gymdog/Supporting Files/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
@@ -1082,6 +1083,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-Release";
 				CODE_SIGN_ENTITLEMENTS = gymdog/gymdog.entitlements;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 3978A7VN36;
 				INFOPLIST_FILE = "$(SRCROOT)/gymdog/Supporting Files/Info-Debug.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
